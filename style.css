@@ -8,6 +8,7 @@ html{
 	font-family: font-family: 'Anton', sans-serif;
 	width: 100%;
 	height: 100%;
+	font-size: 1vw
 }
 
 h1{
@@ -58,7 +59,7 @@ font-size: 1.2em;
 
 .buttonrow{
 color: white;
-padding: 5px;
+padding: 2px;
 padding-top: 30px;
 text-align: center;
 width:100%;
@@ -101,14 +102,12 @@ color: white;
     }
 
  p{
-
+ 	display: flex;
+ 	flex-wrap: wrap;
  	padding-top: 20px;
  	color: white;
  	font-size: 1.5em;
- 	margin-top: 100px;
-  margin-bottom: 50px;
-  margin-right: 250px;
-  margin-left: 250px;
+ 	margin: 20px;
  }
 
  .btn-center{
